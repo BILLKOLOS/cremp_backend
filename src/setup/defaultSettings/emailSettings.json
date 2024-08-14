@@ -1,0 +1,20 @@
+[
+  {
+    "settingCategory": "email_settings",
+    "settingKey": "email_domain",
+    "settingValue": "BillkolosSoftapp.com",
+    "valueType": "string"
+  },
+  {
+    "settingCategory": "email_settings",
+    "settingKey": "email_reply_to",
+    "settingValue": "reply@BillkolosSoftapp.com",
+    "valueType": "string"
+  },
+  {
+    "settingCategory": "email_settings",
+    "settingKey": "email_from",
+    "settingValue": "BillkolosSoft ERP CRM",
+    "valueType": "string"
+  }
+]
