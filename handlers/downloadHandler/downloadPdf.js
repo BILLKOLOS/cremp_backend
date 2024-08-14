@@ -1,4 +1,4 @@
-const custom = require('@/controllers/pdfController');
+const custom = require('../../controllers/pdfController');
 const mongoose = require('mongoose');
 
 module.exports = downloadPdf = async (req, res, { directory, id }) => {

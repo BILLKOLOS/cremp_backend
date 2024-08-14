@@ -2,8 +2,8 @@ const express = require('express');
 
 const router = express.Router();
 
-const { catchErrors } = require('@/handlers/errorHandlers');
-const adminAuth = require('@/controllers/coreControllers/adminAuth');
+const { catchErrors } = require('../../handlers/errorHandlers');
+const adminAuth = require('../../controllers/coreControllers/adminAuth');
 
 router.route('/login').post(catchErrors(adminAuth.login));
 

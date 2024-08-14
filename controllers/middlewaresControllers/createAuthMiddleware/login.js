@@ -7,8 +7,8 @@ const mongoose = require('mongoose');
 const checkAndCorrectURL = require('./checkAndCorrectURL');
 const sendMail = require('./sendMail');
 
-const { loadSettings } = require('@/middlewares/settings');
-const { useAppSettings } = require('@/settings');
+const { loadSettings } = require('../../../middlewares/settings');
+const { useAppSettings } = require('../../../settings');
 
 const authUser = require('./authUser');
 

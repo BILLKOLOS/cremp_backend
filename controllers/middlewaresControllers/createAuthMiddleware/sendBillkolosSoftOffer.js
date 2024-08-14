@@ -1,4 +1,4 @@
-const { afterRegistrationSuccess } = require('@/emailTemplate/emailVerfication');
+const { afterRegistrationSuccess } = require('../../../emailTemplate/emailVerfication');
 
 const { Resend } = require('resend');
 

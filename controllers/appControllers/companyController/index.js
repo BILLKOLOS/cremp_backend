@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const { modelsFiles } = require('@/models/utils');
-const createCRUDController = require('@/controllers/middlewaresControllers/createCRUDController');
+const { modelsFiles } = require('../../../models/utils');
+const createCRUDController = require('../../../controllers/middlewaresControllers/createCRUDController');
 
 const remove = require('./remove');
 const update = require('./update');

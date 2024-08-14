@@ -1,4 +1,4 @@
-const createCRUDController = require('@/controllers/middlewaresControllers/createCRUDController');
+const createCRUDController = require('../../../controllers/middlewaresControllers/createCRUDController');
 const methods = createCRUDController('Offer');
 
 const create = require('./create');

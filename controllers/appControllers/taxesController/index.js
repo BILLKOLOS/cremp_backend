@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Model = mongoose.model('Taxes');
-const createCRUDController = require('@/controllers/middlewaresControllers/createCRUDController');
+const createCRUDController = require('../../../controllers/middlewaresControllers/createCRUDController');
 const methods = createCRUDController('Taxes');
 
 delete methods['delete'];

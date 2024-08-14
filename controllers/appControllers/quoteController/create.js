@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 
 const Model = mongoose.model('Quote');
 
-const custom = require('@/controllers/pdfController');
-const { increaseBySettingKey } = require('@/middlewares/settings');
-const { calculate } = require('@/helpers');
+const custom = require('../../../controllers/pdfController');
+const { increaseBySettingKey } = require('../../../middlewares/settings');
+const { calculate } = require('../../../helpers');
 
 const create = async (req, res) => {
   const { items = [], taxRate = 0, discount = 0 } = req.body;

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const moment = require('moment');
 
 const Model = mongoose.model('Payment');
-const { loadSettings } = require('@/middlewares/settings');
+const { loadSettings } = require('../../../middlewares/settings');
 
 const summary = async (req, res) => {
   let defaultType = 'month';
