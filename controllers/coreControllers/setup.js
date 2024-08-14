@@ -58,7 +58,7 @@ const setup = async (req, res) => {
 
   const settingData = [];
 
-  const settingsFiles = globSync('./src/setup/defaultSettings/**/*.json');
+  const settingsFiles = globSync('./setup/defaultSettings/**/*.json');
 
   for (const filePath of settingsFiles) {
     const file = JSON.parse(fs.readFileSync(filePath, 'utf-8'));

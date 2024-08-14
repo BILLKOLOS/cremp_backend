@@ -1,6 +1,6 @@
 FROM node:20.9.0-alpine
 
-WORKDIR /usr/src/app
+WORKDIR /usr/app
 
 RUN npm install -g npm@10.2.4
 
